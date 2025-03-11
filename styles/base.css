@@ -1,16 +1,16 @@
-/* Base Styles - base.css */
+
 
 body {
-    font-family: 'Roboto', sans-serif; /* Main font */
+    font-family: 'Roboto', sans-serif; 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f4f4f4; /* Light background color */
-    color: #333; /* Dark text color for readability */
+    background-color: #f4f4f4; 
+    color: #333;
 }
 
 header {
-    background-color: #a7c77a; /* A deep blue header background */
+    background-color: #a7c77a; 
     color: white;
     padding: 2rem;
     text-align: center;
@@ -18,8 +18,8 @@ header {
 
 header img {
     margin-bottom: 3rem;
-    display: block; /* Asegura que la imagen sea un bloque */
-    margin-left: auto; /* Centra la imagen horizontalmente */
+    display: block; 
+    margin-left: auto; 
     margin-right: auto;
     box-shadow: 0 4px 8px rgba(63, 90, 55, 0.1);
 }
@@ -31,11 +31,11 @@ header h1 {
 nav {
 	background-color: #6b7f4e;
 	margin: 0 auto;
-	max-width: 800px;
+	max-width: 1100px;
 }
 header nav {
     display: flex;
-    flex-direction: column; /* Vertical for mobile view */
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
     margin-top: 1rem;
@@ -47,33 +47,34 @@ header nav a {
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2rem;
+    flex: 1 1 100%;
 }
 
 header nav a:hover {
-    color: #ff9900; /* A contrasting hover color */
+    color: #ff9900; 
 }
 
 
 main {
-    max-width: 1100px; /* Limit the width of the content */
+    max-width: 1100px; 
     margin: 0 auto;
     padding: 2rem;
 }
 
-/* Main Heading */
+
 h1 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
 }
 
-/* Cards Container */
+
 .cards-container {
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
 }
 
-/* Card Styles */
+
 .card {
     background-color: #ffffff;
     padding: 1.5rem;
@@ -83,7 +84,7 @@ h1 {
 
 .card h2 {
     margin-top: 0;
-    color: #6b7f4e; /* Dark blue for headers */
+    color: #6b7f4e;
 }
 
 ul {
@@ -97,15 +98,15 @@ ul li {
 
 ul li a {
     text-decoration: none;
-    color: #ff9900; /* Use the accent color */
+    color: #ff9900; 
     font-weight: bold;
 }
 
 ul li a:hover {
-    color: #333; /* Darken on hover */
+    color: #333; 
 }
 
-/* Footer */
+
 footer {
     background-color: #6b7f4e;
     color: white;
@@ -113,7 +114,7 @@ footer {
     padding: 1rem;
 }
 
-/* Additional Styling for Elements */
+
 footer p {
     margin: 0;
 }

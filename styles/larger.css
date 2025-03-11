@@ -1,30 +1,29 @@
-/* Larger view media queries - larger.css */
 
 @media (min-width: 768px) {
-    /* Adjust the navigation for wider screens */
+   
     header nav {
-        flex-direction: row; /* Horizontal on larger screens */
+        flex-direction: row;
     }
 
-    /* Cards layout: Two columns for larger views */
+    
     .cards-container {
-        grid-template-columns: 2fr 1fr; /* Two columns */
+        grid-template-columns: 2fr 1fr; 
     }
 }
 
 @media (min-width: 1024px) {
-    /* Larger view for even bigger screens */
+   
     main {
         padding: 3rem;
     }
 
-    /* Adjust the font size of main heading */
+    
     h1 {
         font-size: 3rem;
     }
 
-    /* Keep the cards layout as two columns */
+ 
     .cards-container {
-        grid-template-columns: 2fr 1fr; /* Two columns for larger screens */
+        grid-template-columns: 2fr 1fr;
     }
 }
