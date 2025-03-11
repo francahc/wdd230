@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: #2a3d66; /* A deep blue header background */
+    background-color: #a7c77a; /* A deep blue header background */
     color: white;
     padding: 2rem;
     text-align: center;
@@ -24,7 +24,11 @@ header h1 {
     font-size: 2rem;
     margin: 0;
 }
-
+nav {
+	background-color: #36454f;
+	margin: 0 auto;
+	max-width: 800px;
+}
 header nav {
     display: flex;
     flex-direction: column; /* Vertical for mobile view */
@@ -75,7 +79,7 @@ h1 {
 
 .card h2 {
     margin-top: 0;
-    color: #2a3d66; /* Dark blue for headers */
+    color: #6b7f4e; /* Dark blue for headers */
 }
 
 ul {
