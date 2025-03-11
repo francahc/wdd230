@@ -18,6 +18,9 @@ header {
 
 header img {
     margin-bottom: 3rem;
+    display: block; /* Asegura que la imagen sea un bloque */
+    margin-left: auto; /* Centra la imagen horizontalmente */
+    margin-right: auto;
 }
 
 header h1 {
