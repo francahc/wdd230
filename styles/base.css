@@ -21,6 +21,7 @@ header img {
     display: block; /* Asegura que la imagen sea un bloque */
     margin-left: auto; /* Centra la imagen horizontalmente */
     margin-right: auto;
+    box-shadow: 0 4px 8px rgba(63, 90, 55, 0.1);
 }
 
 header h1 {
