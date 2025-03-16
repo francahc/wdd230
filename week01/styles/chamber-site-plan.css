@@ -1,13 +1,14 @@
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #F2F2F2;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
 header {
-    background-color: #D9EEF2;
-    color: rgb(0, 0, 0);
+    background-color: #42708C;
+    color: rgb(250, 246, 246);
     padding: 20px;
     text-align: center;
 }
@@ -29,7 +30,7 @@ main {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #D9EEF2;
+    background-color: #F2F2F2;
     color: rgb(0, 0, 0);
     position: relative;
     width: 100%;
@@ -53,7 +54,9 @@ section {
     margin: 10px; 
 
 }
-#sitePlan ul {
-    list-style-type: none;
-    padding: 0; 
+section#chamber-site-plan {
+    padding: 30px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
 }
