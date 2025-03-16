@@ -54,6 +54,17 @@ section {
     margin: 10px; 
 
 }
+nav ul li a {
+    color: #ffffff; 
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    color: #F25A38; 
+    text-decoration: underline;
+}
 section#chamber-site-plan {
     padding: 30px;
     background-color: white;
