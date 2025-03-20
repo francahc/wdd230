@@ -110,8 +110,8 @@ ul li a {
 }
 
 ul li a:hover {
-    color: #ffffff; /* White text on hover */
-    background-color: #ff9900; /* Orange background on hover */
+    color: #ffffff; 
+    background-color: #ff9900; 
     opacity: 0.9; 
 }
 
@@ -160,4 +160,64 @@ footer p {
 
 .dark-mode #mode {
     color: #ff9900;
+}
+.hamburger {
+    display: none; 
+    font-size: 2rem;
+    cursor: pointer;
+    color: #333;
+}
+
+#nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6b7f4e;
+}
+
+#nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    font-size: 1rem;
+}
+
+#nav a:hover {
+    color: #ff9900;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block; 
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    #nav {
+        display: none; 
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background-color: #6b7f4e;
+    }
+
+    #nav.active {
+        display: flex; 
+    }
+
+    #nav a {
+        padding: 10px;
+        font-size: 1.2rem;
+        width: 100%;
+        text-align: center;
+        border-top: 1px solid #fff;
+    }
+
+    #nav a:first-child {
+        border-top: none;
+    }
 }
