@@ -77,9 +77,11 @@ h1 {
 
 .card {
     background-color: #ffffff;
+    color: #333;
     padding: 1.5rem;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #f4f4f4;
 }
 
 .card h2 {
