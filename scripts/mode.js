@@ -9,9 +9,9 @@ if (localStorage.getItem('dark-mode') === 'enabled') {
     header.classList.add('dark-mode');
     footer.classList.add('dark-mode');
     main.classList.add('dark-mode');
-    modeButton.textContent = '🕶️'; 
-} else {
     modeButton.textContent = '💡'; 
+} else {
+    modeButton.textContent = '🕶️'; 
 }
 
 modeButton.addEventListener("click", () => {
