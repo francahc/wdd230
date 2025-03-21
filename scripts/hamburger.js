@@ -1,12 +1,12 @@
-const hamburger = document.getElementById('hamburger');
-const nav = document.getElementById('nav');
+const hamburger = document.querySelector("#hamburger");
 
-hamburger.addEventListener('click', () => {
-    nav.classList.toggle('active');
-    
-    if (nav.classList.contains('active')) {
-        hamburger.innerHTML = 'X';
-    } else {
-        hamburger.innerHTML = '&#9776;'; 
-    }
-});
+if (hamburger) {  // Check if the element exists
+    hamburger.addEventListener("click", () => {
+        const nav = document.querySelector("nav");
+        if (nav) {
+            nav.classList.toggle("open"); // Toggle class to show/hide the menu
+        }
+    });
+} else {
+    console.error("Hamburger menu element not found!");
+}
