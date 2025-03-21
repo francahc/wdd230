@@ -180,15 +180,26 @@ footer p {
     font-size: 40px;
 }
 
+/* Default hamburger icon */
+.hamburger::before {
+    content: "\2630";  /* Unicode for hamburger icon (≡) */
+    font-size: 40px;
+    color: white;
+}
+
+/* X icon when open */
 .hamburger.open::before {
-    content: 'X';  /* Change to X when open */
+    content: "X";  /* Change to 'X' when open */
     font-size: 40px;
     color: white;
 }
 
 /* Mobile specific styles */
 @media screen and (max-width: 768px) {
-    /* Initially hide the menu in mobile view */
+    .hamburger {
+        display: block;
+    }
+
     nav {
         display: none;
         flex-direction: column;
@@ -199,19 +210,14 @@ footer p {
         width: 100%;
         z-index: 10;
     }
-    
+
     nav.open {
         display: flex;
     }
 
-    /* Display hamburger icon */
-    .hamburger {
-        display: block;
-    }
-
-    /* Styling for links in the mobile menu */
     nav a {
         padding: 10px;
         border-top: 1px solid white;
     }
 }
+
