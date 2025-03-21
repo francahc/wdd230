@@ -176,23 +176,7 @@ footer p {
     top: 20px;
 }
 
-.hamburger.open {
-    font-size: 40px;
-}
 
-/* Default hamburger icon */
-.hamburger::before {
-    content: "\2630";  /* Unicode for hamburger icon (≡) */
-    font-size: 40px;
-    color: white;
-}
-
-/* X icon when open */
-.hamburger.open::before {
-    content: "X";  /* Change to 'X' when open */
-    font-size: 40px;
-    color: white;
-}
 
 /* Mobile specific styles */
 @media screen and (max-width: 768px) {
@@ -219,5 +203,17 @@ footer p {
         padding: 10px;
         border-top: 1px solid white;
     }
+}
+.hamburger.open::before {
+    content: "X";  /* Cambia el icono a X cuando está abierto */
+    font-size: 40px;
+    color: white;
+}
+
+/* Estilo de la hamburguesa cuando no está abierta */
+.hamburger::before {
+    content: "\2630";  /* Unicode para el icono de hamburguesa (≡) */
+    font-size: 40px;
+    color: white;
 }
 
