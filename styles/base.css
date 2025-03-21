@@ -29,7 +29,7 @@ header h1 {
 }
 
 nav {
-    display: flex;
+    display: none;
     justify-content: center;
     background-color: #6b7f4e;
     margin: 0 auto;
