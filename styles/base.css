@@ -116,11 +116,7 @@ ul li a {
 
 }
 
-ul li a:hover {
-    color: #ffffff; 
-    background-color: #ff9900; 
-    opacity: 0.9; 
-}
+
 
 footer {
     background-color: #004d1f;
