@@ -178,7 +178,7 @@ footer p {
 
 
 
-/* Mobile specific styles */
+
 @media screen and (max-width: 768px) {
     .hamburger {
         display: block;
@@ -205,14 +205,14 @@ footer p {
     }
 }
 .hamburger.open::before {
-    content: "X";  /* Cambia el icono a X cuando está abierto */
+    content: "X";  
     font-size: 40px;
     color: white;
 }
 
-/* Estilo de la hamburguesa cuando no está abierta */
+
 .hamburger::before {
-    content: "\2630";  /* Unicode para el icono de hamburguesa (≡) */
+    content: "\2630";  
     font-size: 40px;
     color: white;
 }
