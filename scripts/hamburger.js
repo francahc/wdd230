@@ -1,10 +1,10 @@
 const hamburger = document.querySelector("#hamburger");
 
-if (hamburger) {  // Check if the element exists
+if (hamburger) { 
     hamburger.addEventListener("click", () => {
         const nav = document.querySelector("nav");
         if (nav) {
-            nav.classList.toggle("open"); // Toggle class to show/hide the menu
+            nav.classList.toggle("open"); 
         }
     });
 } else {
