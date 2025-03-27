@@ -1,0 +1,21 @@
+@media (min-width: 768px) {
+
+    header {
+        padding: 40px;
+    }
+
+    .cta-btn {
+        font-size: 1.2em;
+        padding: 20px 40px;
+    }
+
+    #hero {
+        height: 500px;
+    }
+
+    .spotlight {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0;
+    }
+}
