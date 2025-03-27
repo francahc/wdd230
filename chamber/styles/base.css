@@ -117,7 +117,7 @@ footer {
     margin-right: 20px;
 }
 
-/* Estilo del menú móvil (oculto por defecto) */
+
 .mobile-menu {
     display: none;
     list-style-type: none;
@@ -128,7 +128,7 @@ footer {
     margin: 10px 0;
 }
 
-/* Estilo del botón de hamburguesa */
+/* Estilohamburguesa */
 .hamburger-menu {
     display: none;
     flex-direction: column;
@@ -144,14 +144,14 @@ footer {
     background-color: #000;
 }
 
-/* Media query para dispositivos móviles */
+
 @media (max-width: 768px) {
-    /* Ocultar el menú de escritorio en dispositivos móviles */
+    
     .desktop-menu {
         display: none;
     }
 
-    /* Mostrar el botón de hamburguesa en dispositivos móviles */
+    
     .hamburger-menu {
         display: flex;
     }
