@@ -1,29 +1,21 @@
-
 @media (min-width: 768px) {
-   
-    header nav {
-        flex-direction: row;
+
+    header {
+        padding: 40px;
     }
 
-    
-    .cards-container {
-        grid-template-columns: 2fr 1fr; 
-    }
-}
-
-@media (min-width: 1024px) {
-   
-    main {
-        padding: 3rem;
+    .cta-btn {
+        font-size: 1.2em;
+        padding: 20px 40px;
     }
 
-    
-    h1 {
-        font-size: 3rem;
+    #hero {
+        height: 500px;
     }
 
- 
-    .cards-container {
-        grid-template-columns: 2fr 1fr;
+    .spotlight {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0;
     }
 }
