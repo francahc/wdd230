@@ -12,5 +12,5 @@ document.addEventListener('DOMContentLoaded', function() {
     localStorage.setItem('visitCount', visitCount);
 
     // Display the visit count in the page
-    document.getElementById('visit-count').textContent = `Page Visits: ${visitCount}`;
+    document.getElementById('visit-count').textContent = ` ${visitCount}`;
 });
