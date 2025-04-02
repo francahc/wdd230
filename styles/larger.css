@@ -22,5 +22,6 @@
 @media (max-width: 768px) {
     .cards-container {
         display: block; /* Pone los elementos en una sola columna en pantallas pequeñas */
+        margin-top: 2rem;
     }
 }
