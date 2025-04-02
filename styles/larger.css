@@ -27,4 +27,8 @@
     .overlay {
         font-size: 1.5rem; /* Adjust text size for smaller screens */
     }
+    .temple-name {
+        font-size: 1.2rem; /* Smaller font size for mobile screens */
+        padding: 10px 20px; /* Adjust padding for smaller screens */
+    }
 }
