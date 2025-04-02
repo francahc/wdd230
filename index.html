@@ -28,7 +28,7 @@
 </head>
 <body>
     <header>
-        <img src="images/profile.jpg" alt="Profile Image" width="100" height="100">
+        <img src="images/profile.webp" alt="Profile Image" width="100" height="100">
         <span>Franca Harris</span>
         
         
@@ -58,6 +58,21 @@
     </header>
     
     <main>
+        <picture>
+            <!-- Mobile Image (400px) -->
+            <source media="(max-width: 768px)" srcset="images/rome_italy_temple.webp 1x, images/rome_italy_temple.webp 2x">
+    
+            <!-- Larger Image (960px) -->
+            <source media="(min-width: 769px)" srcset="images/rome_italy_temple.webp 1x, images/rome_italy_temple.webp 2x">
+    
+            <!-- Fallback Image (JPEG) if WebP is not supported -->
+            <img src="images/rome_italy_temple.jpg" alt="Rome Italy Temple" style="width: 100%; height: auto;">
+        </picture>
+    
+        <!-- Overlay Text on the Image -->
+        <div class="overlay">
+            <span class="temple-name">Rome Italy Temple</span>
+        </div>
         <div id="mode">
             💡/🕶️
         </div>
