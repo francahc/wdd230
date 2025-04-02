@@ -24,4 +24,7 @@
         display: block; /* Pone los elementos en una sola columna en pantallas pequeñas */
         margin-top: 2rem;
     }
+    .overlay {
+        font-size: 1.5rem; /* Adjust text size for smaller screens */
+    }
 }

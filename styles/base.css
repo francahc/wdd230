@@ -244,7 +244,7 @@ picture {
 
 
 .temple-name {
-    text-align: left;
+    text-align: center;
     white-space: nowrap; 
 }
 
@@ -265,5 +265,8 @@ picture {
         display: grid;
         grid-template-columns: 2fr 1fr; 
         gap: 2rem;
+    }
+    .overlay {
+        font-size: 2rem; /* Larger font size for larger screens */
     }
 }
