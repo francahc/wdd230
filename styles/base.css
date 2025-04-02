@@ -78,7 +78,7 @@ h1 {
 
 .cards-container {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns:  1fr;
     gap: 2rem;
 }
 
@@ -262,4 +262,12 @@ picture {
 .map-container {
     margin-top: 2rem; /* Esto añade espacio encima del mapa */
     
+}
+
+@media (min-width: 768px) {
+    .cards-container {
+        display: grid;
+        grid-template-columns: 2fr 1fr; /* Aquí definimos que "Learning Activities" será más grande que "Information" */
+        gap: 2rem;
+    }
 }
