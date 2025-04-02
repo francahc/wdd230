@@ -249,7 +249,7 @@ picture {
 }
 
 
-/* Contenedor de la imagen con el texto */
+
 .picture-container {
     position: relative;
     display: block;
@@ -263,7 +263,7 @@ picture {
 @media (min-width: 768px) {
     .cards-container {
         display: grid;
-        grid-template-columns: 2fr 1fr; /* Aquí definimos que "Learning Activities" será más grande que "Information" */
+        grid-template-columns: 2fr 1fr; 
         gap: 2rem;
     }
 }
