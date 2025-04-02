@@ -230,7 +230,7 @@ picture {
 /*  overlay */
 .overlay {
     position: absolute;
-    top: 20%;
+    top: 0;
     right: 20%;
     width: 100%;
     height: 100%;
