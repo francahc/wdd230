@@ -250,6 +250,13 @@ picture {
 .temple-name {
     text-align: center;
     white-space: nowrap; 
+    background-color: rgba(54, 73, 76, 0.395); /* Semi-transparent black background */
+    padding: 15px 30px; /* Add padding for spacing around the text */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6); /* Soft shadow */
+    font-size: 2rem; /* Font size for larger screens */
+    color: white; /* White text color for contrast */
+    text-transform: uppercase;
 }
 
 
