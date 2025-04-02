@@ -229,9 +229,9 @@ picture {
 
 /*  overlay */
 .overlay {
-    position: absolute;
-    top: 20px;
-    left: 20px;
+    position: relative;
+    top: 0;
+    left: 0;
     width: 100%; 
     color: white;
     font-size: 2rem;
