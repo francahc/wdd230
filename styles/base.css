@@ -249,7 +249,7 @@ picture {
 
 .temple-name {
     text-align: center;
-    white-space: nowrap; 
+    
     background-color: rgba(54, 73, 76, 0.395); /* Semi-transparent black background */
     padding: 15px 30px; /* Add padding for spacing around the text */
     border-radius: 10px; /* Rounded corners */
