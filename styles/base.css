@@ -259,3 +259,7 @@ picture {
     display: block;
     width: 100%;
 }
+.map-container {
+    margin-top: 2rem; /* Esto añade espacio encima del mapa */
+    
+}
