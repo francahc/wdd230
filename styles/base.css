@@ -243,11 +243,12 @@ picture {
     font-weight: bold;
     letter-spacing: 2px;
     white-space: nowrap; /* Prevent text wrapping */
+    padding-left: 20px;
 }
 
 /* Styling for the text */
 .temple-name {
-    text-align: center;
+    text-align: left;
     white-space: nowrap; /* Prevent text wrapping */
 }
 
