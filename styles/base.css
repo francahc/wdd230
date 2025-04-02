@@ -281,3 +281,9 @@ picture {
         font-size: 2rem; /* Larger font size for larger screens */
     }
 }
+
+.map-container iframe {
+    width: 100%; /* Hace que el iframe ocupe el 100% del contenedor */
+    height: 400px; /* Mantiene la altura del iframe */
+    border: 0; /* Elimina el borde del iframe */
+}
