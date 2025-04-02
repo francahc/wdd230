@@ -251,11 +251,7 @@ picture {
     text-align: left;
     white-space: nowrap; 
 }
-img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
+
 
 /* Contenedor de la imagen con el texto */
 .picture-container {
