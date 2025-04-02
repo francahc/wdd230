@@ -227,7 +227,7 @@ picture {
     width: 100%;
 }
 
-/* Styling for the overlay */
+/*  overlay */
 .overlay {
     position: absolute;
     top: 0;
@@ -235,20 +235,20 @@ picture {
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: flex-start; /* Centering the text horizontally */
-    align-items: center; /* Centering the text vertically */
+    justify-content: flex-start; 
+    align-items: center; 
     color: white;
     font-size: 2rem;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
-    white-space: nowrap; /* Prevent text wrapping */
+    white-space: nowrap; 
     padding-left: 40px;
 }
 
-/* Styling for the text */
+
 .temple-name {
     text-align: left;
-    white-space: nowrap; /* Prevent text wrapping */
+    white-space: nowrap; 
 }
 
