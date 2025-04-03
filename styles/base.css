@@ -297,3 +297,41 @@ picture {
         opacity: 0.8;  /* Reduce opacity slightly */
     }
 }
+/* Base styles */
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr; /* Default: single column for mobile */
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Gallery */
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Responsive: Sidebar & Gallery Layout for larger screens */
+@media (min-width: 768px) {
+    .main-container {
+        grid-template-columns: 1fr 2fr; /* Sidebar 1/3 width, Main Content 2/3 width */
+    }
+    
+    .gallery {
+        grid-template-columns: repeat(3, 1fr); /* 3 images per row */
+    }
+}
