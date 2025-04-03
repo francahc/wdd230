@@ -32,3 +32,18 @@
         padding: 10px 20px; 
     }
 }
+@media (max-width: 768px) {
+    .discover-layout {
+        grid-template-columns: 1fr; /* Una sola columna */
+    }
+
+    .gallery {
+        grid-template-columns: 1fr; /* Imágenes en una sola columna */
+    }
+
+    /* Desactivar efecto hover en móviles */
+    .gallery img:hover {
+        transform: none;
+        box-shadow: none;
+    }
+}
