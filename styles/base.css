@@ -335,3 +335,22 @@ picture {
         grid-template-columns: repeat(3, 1fr); /* 3 images per row */
     }
 }
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas en móvil */
+    gap: 15px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 200px; /* Altura fija para uniformidad */
+    object-fit: cover; /* Recorta imágenes para que todas se ajusten sin deformarse */
+    border-radius: 8px;
+}
+
+/* Responsive: 3 imágenes por fila en pantallas grandes */
+@media (min-width: 768px) {
+    .gallery {
+        grid-template-columns: repeat(3, 1fr); /* 3 imágenes por fila */
+    }
+}
