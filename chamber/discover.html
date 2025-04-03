@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Atacama</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/getDates.js" defer></script>
+    <script src="scripts/hamburger.js" defer></script>
+    <script src="scripts/visitTracker.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Atacama Chamber of Commerce</h1>
+        <nav>
+            <ul class="desktop-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+            </ul>
+            <div class="hamburger-menu" id="hamburger-menu" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="mobile-menu" id="mobile-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="discover-layout">
+        <aside class="sidebar">
+            <h2>Welcome to Atacama!</h2>
+            <p id="visitMessage"></p>
+            <h3>Did You Know?</h3>
+            <ul>
+                <li>Atacama is the driest desert in the world.</li>
+                <li>It features stunning landscapes like the Valle de la Luna.</li>
+                <li>Many astronomical observatories are located here due to the clear skies.</li>
+            </ul>
+        </aside>
+        <section class="gallery">
+            <h2>Explore Atacama</h2>
+            <div class="image-container">
+                <figure>
+                    <img src="images/photo1.jpg" loading="lazy" alt="Desert view">
+                    <figcaption>Beautiful desert landscape.</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/photo2.jpg" loading="lazy" alt="Valle de la Luna">
+                    <figcaption>Valle de la Luna at sunset.</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/photo3.jpg" loading="lazy" alt="Flamingos">
+                    <figcaption>Flamingos in the salt flats.</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/photo4.jpg" loading="lazy" alt="Starry night">
+                    <figcaption>Atacama’s famous starry night sky.</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/photo5.jpg" loading="lazy" alt="Geysers">
+                    <figcaption>El Tatio geysers at dawn.</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/photo6.jpg" loading="lazy" alt="Oasis">
+                    <figcaption>Oasis hidden in the desert.</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Franca Harris, Costa Rica.</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
