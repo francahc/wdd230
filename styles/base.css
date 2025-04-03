@@ -330,7 +330,7 @@ picture {
 }
 
 .gallery img {
-    width: 100%;
+    width: 300px;
     height: 200px; /* Altura fija para uniformidad */
     object-fit: cover; /* Recorta imágenes para que todas se ajusten sin deformarse */
     border-radius: 8px;
