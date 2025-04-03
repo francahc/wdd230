@@ -348,9 +348,3 @@ picture {
     border-radius: 8px;
 }
 
-/* Responsive: 3 imágenes por fila en pantallas grandes */
-@media (min-width: 768px) {
-    .gallery {
-        grid-template-columns: repeat(3, 1fr); /* 3 imágenes por fila */
-    }
-}
