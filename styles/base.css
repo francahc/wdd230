@@ -287,21 +287,10 @@ picture {
     height: 400px; 
     border: 0; 
 }
-@media (min-width: 768px) {  /* Apply hover effect only on larger screens */
-    .gallery img {
-        transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
-    }
-
+@media (min-width: 768px) {
     .gallery img:hover {
-        transform: scale(1.1);  /* Slight zoom effect */
-        opacity: 0.8;  /* Reduce opacity slightly */
-    }
-    .discover-layout {
-        grid-template-columns: 1fr 2fr; /* Una columna para sidebar y otra para galería */
-    }
-
-    .gallery {
-        grid-template-columns: repeat(3, 1fr); /* Tres imágenes por fila en pantallas grandes */
+        transform: scale(1.05); /* Efecto de zoom */
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Sombra al pasar el mouse */
     }
 }
 
@@ -325,8 +314,9 @@ picture {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 columnas en móvil */
+    grid-template-columns: repeat(3, 1fr); /* 2 columnas en móvil */
     gap: 15px;
+    justify-items: start;
 }
 
 .gallery img {

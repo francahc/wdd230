@@ -34,16 +34,15 @@
 }
 @media (max-width: 768px) {
     .discover-layout {
-        grid-template-columns: 1fr; /* Una sola columna */
+        grid-template-columns: 1fr; /* Una sola columna para el sidebar y la galería */
     }
 
     .gallery {
-        grid-template-columns: 1fr; /* Imágenes en una sola columna */
+        grid-template-columns: 1fr; /* Una sola columna para las imágenes */
     }
 
-    /* Desactivar efecto hover en móviles */
     .gallery img:hover {
         transform: none;
-        box-shadow: none;
+        box-shadow: none; /* El efecto hover se desactiva en móvil */
     }
 }
