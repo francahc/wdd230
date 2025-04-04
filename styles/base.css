@@ -296,10 +296,18 @@ picture {
         transform: scale(1.1);  /* Slight zoom effect */
         opacity: 0.8;  /* Reduce opacity slightly */
     }
+    .discover-layout {
+        grid-template-columns: 1fr 2fr; /* Una columna para sidebar y otra para galería */
+    }
+
+    .gallery {
+        grid-template-columns: repeat(3, 1fr); /* Tres imágenes por fila en pantallas grandes */
+    }
 }
+
+
 .discover-layout {
     display: grid;
-    grid-template-columns: 1fr 2fr; /* Sidebar a la izquierda, galería más grande */
     gap: 20px;
     align-items: start;
     padding: 20px;
@@ -314,14 +322,7 @@ picture {
 }
 
 
-/* Responsive: Sidebar & Gallery Layout for larger screens */
-@media (min-width: 768px) {
-    
-    .gallery img:hover {
-        transform: scale(1.05);
-        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
-    }
-}
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2 columnas en móvil */
