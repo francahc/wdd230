@@ -34,7 +34,7 @@
 }
 @media (max-width: 768px) {
     .discover-layout {
-        grid-template-columns: 1fr; /* Una sola columna para el sidebar y la galería */
+        grid-template-columns: 1fr;
     }
 
     .gallery {
